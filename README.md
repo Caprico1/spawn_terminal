@@ -1,8 +1,10 @@
 # spawn_terminal
 
-Works in both Python2 and Python3
+Spawns a `bin/bash` terminal.
 
-This script is meant too be used with meterpreter
+Works in both Python2 and Python3.
+
+This script is meant too be used with meterpreter.
 
 # Basic usage
 
@@ -13,4 +15,8 @@ meterpreter> shell
 
 python /tmp/spawn_terminal
 
+user@linux:/$ whoami
+user
+
+user@linux:/$
 ```
