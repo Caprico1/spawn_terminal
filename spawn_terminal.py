@@ -5,5 +5,5 @@ import pty
 # You should see user@box:/$ when you run this.
 
 
-pty.spawn('bin/bash')
+pty.spawn('/bin/bash')
 print('Happy Trails o/')
